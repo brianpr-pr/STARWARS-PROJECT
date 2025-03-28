@@ -2,7 +2,8 @@ package paquete1;
 
 class Jedi extends Personaje {
     private String colorSable;
-
+    private int contadorMuertes;
+    private int cirujias;
     public Jedi(String nombre, String especie, String colorSable) {
         super(nombre, especie, "Jedi");
         this.colorSable = colorSable;

@@ -9,7 +9,7 @@ abstract class Personaje implements SerGalactico {
     protected String nombre;
     protected String especie;
     protected String afiliacion; // Jedi, Sith, Cazarrecompensas, etc.
-
+    private Stiring nombreDelPerro;
     public Personaje(String nombre, String especie, String afiliacion) {
         this.nombre = nombre;
         this.especie = especie;

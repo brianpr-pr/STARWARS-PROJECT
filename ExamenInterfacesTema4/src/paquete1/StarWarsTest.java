@@ -1,16 +1,37 @@
 package paquete1;
-
-
-
+/**
+ * Clase StarWarsTest 
+ * @version 31/03/2025
+ * @author Brian Perez
+ * @since 29/03/2025
+ */
 public class StarWarsTest {
+	
+	/**
+	 * Constructor por defecto
+	 */
+	public  StarWarsTest() {}
+	/**
+	 * Metodo main
+	 * @param args Argumentos para usar en el main
+	 */
     public static void main(String[] args) {
-        Jedi luke = new Jedi("Luke Skywalker", "Humano", "Verde");
+    	
+    	/**
+    	 * Creacion de un Jedi
+    	 * 
+    	 */
+        Jedi luke = new Jedi("Luke Skywalker", "Humano", "Verde");           
+        
         Sith vader = new Sith("Darth Vader", "Humano", "Estrujar con la Fuerza");
         Cazarrecompensas boba = new Cazarrecompensas("Boba Fett", "Mandaloriano", "Bláster EE-3");
 
         System.out.println("Información de los personajes:\n");
 
+        
         luke.mostrarInfo();
+        
+        
         luke.usarHabilidadEspecial();
         luke.meditar();
         luke.hablarFraseIconica();
